@@ -170,15 +170,28 @@ header {
                 text-transform: uppercase;
                 margin-top: 0;
                 margin-bottom: 0;
+                -webkit-text-stroke-width: 1px;
+                -webkit-text-stroke-color: rgba(white, 0.3);
+
+            }
+            h2 {
+                -webkit-text-stroke-width: 1px;
+                -webkit-text-stroke-color: rgba(white, 0.3);
+            }
+            h3 {
+                -webkit-text-stroke-width: 1px;
+                -webkit-text-stroke-color: rgba(white, 0.3);
             }
             hr {
                 margin: 30px auto;
             }
             p {
-                font-weight: 300;
+                font-weight: 500;
                 color: rgba(white, .7);
                 font-size: 16px;
                 margin-bottom: 50px;
+                -webkit-text-stroke-width: 1px;
+                -webkit-text-stroke-color: rgba(white, 0.3);
             }
         }
     }
