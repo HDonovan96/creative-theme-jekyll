@@ -5,8 +5,8 @@ description: > # this means to ignore newlines until "baseurl:"
  Creative is a one page Bootstrap theme for creatives, small businesses, and other multipurpose uses.
  The theme includes a number of rich features and plugins that you can use as a great boilerplate for your next Jekyll project!
 
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
+baseurl: "/portfolio" # the subpath of your site, e.g. /blog/
+url: "https://hdonovan96.github.io" # the base hostname & protocol for your site
 
 twitter_username: eachabyss
 github_username:  hdonovan96
