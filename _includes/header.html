@@ -1,14 +1,13 @@
 <header>
     <div class="header-content">
         <div class="header-content-inner">
-            <h1>Harry Donovan</h1>
-            <h2>Producer - Programmer</h2>
-            <h3>She / They</h3>
+            <h1>{{page.header}}</h1>
+            <h2>{{page.subheader}}</h2>
+            <h3>{{page.subsubheader}}</h3>
             <hr>
-            <p> Hi! This site is still a work in progress, so if you need anything you're best off contacting me
-                directly, I'm always happy to chat! You can also grab my resume at the link below.
+            <p> {{page.para}}
             </p>
-            <a href="#about" class="btn btn-primary btn-xl page-scroll">About Me</a>
+            <a href="{{page.test}}" class="btn btn-primary btn-xl page-scroll">About Me</a>
             <a href="https://github.com/HDonovan96/Resume/raw/dev/resume.pdf" class="btn btn-primary btn-xl">Resume</a>
         </div>
     </div>
