@@ -74,6 +74,8 @@ aside {
     border-color: rgba($theme-dark, .5);
     @include sans-serif-font;
     @include transition-all;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(white, 0.3);
     .navbar-header .navbar-brand {
         color: $theme-primary;
         @include sans-serif-font;
