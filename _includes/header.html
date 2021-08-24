@@ -7,8 +7,12 @@
             <hr>
             <p> {{page.para}}
             </p>
-            <a href="{{page.test}}" class="btn btn-primary btn-xl page-scroll">About Me</a>
-            <a href="https://github.com/HDonovan96/Resume/raw/dev/resume.pdf" class="btn btn-primary btn-xl">Resume</a>
+            {% if {{page.buttononelink}} and {{page.buttononetext}} %}
+            <a href="{{page.buttononelink}}" class="btn btn-primary btn-xl page-scroll">{{page.buttononetext}}</a>
+            {% endif %}
+            {% if {{page.buttontwolink}} and {{page.buttontwotext}} %}
+            <a href="{{page.buttontwolink}}" class="btn btn-primary btn-xl page-scroll">{{page.buttontwotext}}</a>
+            {% endif %}
         </div>
     </div>
 </header>
